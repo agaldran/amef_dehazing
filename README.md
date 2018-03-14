@@ -40,5 +40,5 @@ If you need further speed, the computationally heaviest part of the method is th
 examples are also included for completeness.*
 
 -------
-<a id="note1" href="#note1ref"><sup>1</sup></a> In a computer with an Intel® Xeon® E5 CPU at 3.5 GHz, was **0.7 seconds**. 
+<a id="note1" href="#note1ref"><sup>1</sup></a> In a computer with an Intel® Xeon® E5 CPU at 3.5 GHz. 
 
