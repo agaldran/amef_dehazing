@@ -1,16 +1,18 @@
 # AMEF - Artificial Multiple Exposure Fusion for Image Dehazing
 
 ![](https://raw.githubusercontent.com/agaldran/website/master/static/img/overall_amef.png?style=centerme)
-<p align="center">**AMEF** is a fast fog removal technique that fuses differently (artificially) underexposed versions of a hazy image into a single haze-free result<p align="center">
+<p align="center">AMEF is a fast fog removal technique that fuses differently (artificially) underexposed versions of a hazy image into a single haze-free result<p align="center">
 
 ## DESCRIPTION
 Matlab implementation of the AMEF method for image dehazing, described in:
 
-**Image Dehazing by Artificial Multi-Exposure Image Fusion**
-**Adrian Galdran**
-**Signal Processing, 2018 (accepted)**
-**PDF: updated soon**
-**DOI: updated soon**
+```
+Image Dehazing by Artificial Multi-Exposure Image Fusion
+Adrian Galdran
+Signal Processing, 2018 (accepted)
+PDF: updated soon
+DOI: updated soon
+```
 
 The fusion part of the code borrows from [the following work](https://github.com/Mericam/exposure-fusion):
 "Exposure Fusion",
@@ -27,11 +29,13 @@ to `c=0.010` for most of the experiments, although it can be varied. A larger `c
 will attemplt to remove more haze - at the risk of overenhancement:
 
 ![](https://raw.githubusercontent.com/agaldran/website/master/static/img/clip_range_influence.png?style=centerme)
-<p align="center">*Influence of the clip-range parameter c on the behavior of AMEF: a) Hazy landscape b)-f) Result of dehazing with b) c=0.003 c) c=0.005 d) c=0.010 e) c=0.015 f) c=0.020*<p align="center">
+<p align="center">Influence of the clip-range parameter c on the behavior of AMEF: a) Hazy landscape b)-f) Result of dehazing with b) c=0.003 c) c=0.005 d) c=0.010 e) c=0.015 f) c=0.020<p align="center">
 
 
-Running AMEF should be quite fast. As explained in the paper, I found that the average runtime tested on images of **720 x 480** resolution, in a computer with an Intel® Xeon® E5 CPU at 3.5 GHz, was **0.7 seconds**. If you need further speed, the computationally heaviest part of the method is the fusion scheme; there is an OpenCV implementation of it [here](https://docs.opencv.org/3.3.0/d7/dd6/classcv_1_1MergeMertens.html) that you may want to adapt. Have fun!
+Running AMEF should be quite fast. As explained in the paper, I found that the average runtime tested on images of **720 x 480** resolution [^1] , was **0.7 seconds**. 
+If you need further speed, the computationally heaviest part of the method is the fusion scheme; there is an OpenCV implementation of it [here](https://docs.opencv.org/3.3.0/d7/dd6/classcv_1_1MergeMertens.html) that you may want to adapt. Have fun!
 
 -------
+[^1]: In a computer with an Intel® Xeon® E5 CPU at 3.5 GHz
 *All the examples shown in the paper can be reproduced with this code. Additional 
 examples are also included for completeness.*
