@@ -29,7 +29,7 @@ The most relevant parameter to play with is `clip_range`, which in the paper is 
 to `c=0.010` for most of the experiments, but it can be varied. A larger `clip_range` 
 will attempt to remove more haze - at the risk of overenhancement:
 
-![](https://raw.githubusercontent.com/agaldran/website/master/static/img/clip_range_influence.png?style=centerme)
+![](https://raw.githubusercontent.com/agaldran/website/master/static/img/c_influence.png?style=centerme)
 <p align="center">Influence of the clip-range parameter c on the behavior of AMEF: a) Hazy landscape b)-f) Result of dehazing with b) c=0.003 c) c=0.005 d) c=0.010 e) c=0.015 f) c=0.020<p align="center">
 
 
