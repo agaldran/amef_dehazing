@@ -12,9 +12,9 @@ Adrian Galdran
 Signal Processing, 149: 135-147, Aug. 2018.
 ```
 
-**PDF**: Follow this [link](https://agaldran.github.io/pdf/amef_dehazing.pdf)
+* **PDF**: Follow this [link](https://agaldran.github.io/pdf/amef_dehazing.pdf)
 
-**DOI**: Follow this [link](https://doi.org/10.1016/j.sigpro.2018.03.008)
+* **DOI**: Follow this [link](https://doi.org/10.1016/j.sigpro.2018.03.008)
 
 
 The fusion part of the code borrows from [the following work](https://github.com/Mericam/exposure-fusion):
