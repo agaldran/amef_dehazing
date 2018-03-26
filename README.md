@@ -10,8 +10,8 @@ Matlab implementation of the AMEF method for image dehazing, described in:
 Image Dehazing by Artificial Multi-Exposure Image Fusion
 Adrian Galdran
 Signal Processing, 2018 (accepted)
-PDF: updated soon
-DOI: updated soon
+PDF: [link](https://agaldran.github.io/pdf/amef_dehazing.pdf)
+DOI: [link](https://doi.org/10.1016/j.sigpro.2018.03.008)
 ```
 
 The fusion part of the code borrows from [the following work](https://github.com/Mericam/exposure-fusion):
